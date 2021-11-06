@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.artfor.app.service.mapper.BoardMapper">
+
+ <select id="list" resultType="org.artfor.app.web.BoardDTO">
+ 	select * from ARTWORK order by work_no
+ </select>
+ 
+ <insert id="input">
+ insert into ARTWORK(work_no,  work_content) values((select nvl(max(work_no),0)+1 from artwork), #{work_content,jdbcType=CLOB})
+ </insert>
+ 
+   
+
+</mapper>
