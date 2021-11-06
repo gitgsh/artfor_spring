@@ -3,7 +3,7 @@ package org.artfor.app.service.impl;
 import java.util.List;
 
 import org.artfor.app.service.BoardService;
-import org.artfor.app.service.mapper.BoardMapper;
+import org.artfor.app.service.mapper.BoardMapper_sh;
 import org.artfor.app.web.BoardDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 public class BoardServiceImpl_sh implements BoardService {
 
 	@Autowired
-	BoardMapper mapper;
+	BoardMapper_sh mapper;
 
 	@Override
 	public List<BoardDTO> list() {
