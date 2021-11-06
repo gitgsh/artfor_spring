@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BoardController_detail_jh {
 
 	@Autowired
-	BoardService_jh service;
+	BoardService_jh service; //ff
 
 	
 
