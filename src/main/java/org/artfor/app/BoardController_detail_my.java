@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @CrossOrigin("http://localhost:3000")
 @RequestMapping(value = "/")
-public class BoardController_detail_my {
+public class BoardController_detail_my { //git test2
 
 	@Autowired
 	BoardService_my service;
