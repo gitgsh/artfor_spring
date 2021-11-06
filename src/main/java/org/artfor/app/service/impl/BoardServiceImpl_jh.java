@@ -2,17 +2,17 @@ package org.artfor.app.service.impl;
 
 import java.util.List;
 
-import org.artfor.app.service.BoardService;
-import org.artfor.app.service.mapper.BoardMapper;
+import org.artfor.app.service.BoardService_jh;
+import org.artfor.app.service.mapper.BoardMapper_jh;
 import org.artfor.app.web.BoardDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class BoardServiceImpl_jh implements BoardService {
+public class BoardServiceImpl_jh implements BoardService_jh {
 
 	@Autowired
-	BoardMapper mapper;
+	BoardMapper_jh mapper; //jh
 
 	@Override
 	public List<BoardDTO> list() {

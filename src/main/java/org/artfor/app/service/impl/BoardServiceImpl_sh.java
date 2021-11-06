@@ -2,14 +2,14 @@ package org.artfor.app.service.impl;
 
 import java.util.List;
 
-import org.artfor.app.service.BoardService;
+import org.artfor.app.service.BoardService_sh;
 import org.artfor.app.service.mapper.BoardMapper_sh;
 import org.artfor.app.web.BoardDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class BoardServiceImpl_sh implements BoardService {
+public class BoardServiceImpl_sh implements BoardService_sh {
 
 	@Autowired
 	BoardMapper_sh mapper;
