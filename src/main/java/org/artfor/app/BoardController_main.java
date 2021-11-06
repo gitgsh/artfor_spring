@@ -20,7 +20,7 @@ public class BoardController_main {
 	BoardService service;
 	
 	@RequestMapping(value="/" , method = RequestMethod.GET)
-	public String home() {
+	public String home() { //git test~
 		return "home";
 	}
 	
