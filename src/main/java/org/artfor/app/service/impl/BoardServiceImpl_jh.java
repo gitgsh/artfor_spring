@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 public class BoardServiceImpl_jh implements BoardService_jh {
 
 	@Autowired
-	BoardMapper_jh mapper;
+	BoardMapper_jh mapper; //jh
 
 	@Override
 	public List<BoardDTO> list() {
